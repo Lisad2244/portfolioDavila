@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./wwwroot/css/landing.css">
     <title>Davila Portfolio</title>
 </head>
 
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
         <div class="container">
             <a href="#" class="navbar-brand">Lisa Davila</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
@@ -24,14 +25,15 @@
                         <a href="#about" class="nav-link">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#resume" class="nav-link">My Resume</a>
+                        <a href="#resume" class="nav-link">My Experiences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#image" class="nav-link">My Projects</a>
                     </li>
                     <li class="nav-item">
                         <a href="#contact" class="nav-link">Let's Connect</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#image" class="nav-link">My Portfolio</a>
-                    </li>
+
                 </ul>
             </div>
         </div>
@@ -39,16 +41,62 @@
     <!-- Showcase -->
     <section class="bg-dark text-light p-3 text-center text-sm-start">
         <div class="container">
-            <div class="d-md-flex">
+            <div class="d-md-flex align-items-center justify-content-between">
                 <div>
                     <h1>Meet <span class="text-warning">Lisa</span></h1>
                     <p class="lead m-4">
-                        I am a developer who is passionate about making a product that customers are proud of.</br>  Let's talk about what your vision is and make it a reality.
+                        I am a developer who is passionate about making a product that customers are proud of.</br>
+                        Let's talk about what your vision is and make it a reality.
                     </p>
                     <button class="btn btn-primary btn-lg mb-5">Let's Chat</button>
                 </div>
                 <img class="rounded m-auto d-block" src="./wwwroot/images/Myprofilepic.jpg" alt="">
-
+            </div>
+        </div>
+    </section>
+    <!-- Boxes -->
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-calendar-range"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Freelance</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, vel?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-dark text-light">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                            <i class="bi bi-calendar-range"></i>
+                        </div>
+                        <h3 class="card-title mb-3">Administrative</h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, vel?
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-dark text-light">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                            <i class="bi bi-calendar-range"></i>
+                        </div>
+                        <h3 class="card-title mb-3">Developer</h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, vel?
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
