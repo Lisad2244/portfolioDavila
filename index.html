@@ -13,7 +13,7 @@
 
 <body span class="border border-2 border-light"></span>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 pb-0 fixed-top">
         <div class="container">
             <a href="#" class="navbar-brand">Lisa Davila</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
@@ -22,16 +22,16 @@
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="#about" class="nav-link">About Me</a>
+                        <a href="#about me" class="nav-link">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#resume" class="nav-link">My Experiences</a>
+                        <a href="#my experience" class="nav-link">My Experience</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#image" class="nav-link">My Projects</a>
+                        <a href="#my projects" class="nav-link">My Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contact" class="nav-link">Let's Connect</a>
+                        <a href="#let's connect" class="nav-link">Let's Connect</a>
                     </li>
 
                 </ul>
@@ -39,88 +39,147 @@
         </div>
     </nav>
     <!-- Showcase -->
-    <section class="vw-100 vh-100 bg-dark text-light p-3 text-center text-sm-start">
+    <section class="vw-100 vh-100 bg-dark text-light p-3 text-center text-sm-start" id="about me">
         <div class="container">
             <div class="d-md-flex align-items-center justify-content-between">
                 <div>
                     <h1>Meet <span class="text-warning">Lisa</span></h1>
-                    <p class="lead m-4">
+                    <p class="me lead m-4">
                         I am a developer who is passionate about making a product that customers are proud of.</br>
                         Let's talk about what your vision is and make it a reality.</br>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur asperiores, rerum minima repellendus deleniti est tenetur tempore accusantium iste labore.</br>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium alias ducimus, porro deleniti debitis eligendi quod molestiae tempora voluptatibus illo fugit quos, consectetur recusandae voluptate doloribus sed expedita ut veniam.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur asperiores, rerum minima
+                        repellendus deleniti est tenetur tempore accusantium iste labore.</br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium alias ducimus, porro
+                        deleniti debitis eligendi quod molestiae tempora voluptatibus illo fugit quos, consectetur
+                        recusandae voluptate doloribus sed expedita ut veniam.
                     </p>
                     <button class="btn btn-primary btn-lg mb-5">Let's Chat</button>
                 </div>
-                <img class="rounded m-auto d-block" src="./wwwroot/images/Myprofilepic.jpg" alt="">
+                <img class="img-fluid rounded m-auto d-sm-mw-50 d-block" src="./wwwroot/images/Myprofilepic.jpg" alt="">
             </div>
         </div>
     </section>
 
     <!-- Boxes -->
-    <div class="vw-100 vh-100">
-    <div class="container border border-2 border-dark">
-    <h1 class=" mt-5 text-center">My <span class="text-warning">Experience</span></h1>
-    <section class="p-5">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <div class="card bg-dark text-light">
-                        <div class="card-body text-center">
-                            <div class="h1 mb-3">
-                                <i class="bi bi-calendar-range"></i>
+    <div class="vw-100 vh-100" id="my experience">
+        <div class="container border border-2 border-dark">
+            <h1 class="d-sm-mt-2 mt-5 text-center">My <span class="text-warning">Experience</span></h1>
+            <section class="p-5 m-sm-0">
+                <div class="container">
+                    <div class="row text-center g-3">
+                        <div class="col-md-4">
+                            <div class="card bg-dark text-light">
+                                <div class="card-body text-center">
+                                    <div class="h1 mb-3">
+                                        <i class="bi bi-calendar-range"></i>
+                                    </div>
+                                    <h3 class="card-title mb-3">Freelance Developer</h3>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, vel?
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Read More</a>
+                                </div>
                             </div>
-                            <h3 class="card-title mb-3">Freelance Developer</h3>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, vel?
-                            </p>
-                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card bg-secondary text-light">
+                                <div class="card-body text-center">
+                                    <div class="h1 mb-3">
+                                        <i class="bi bi-calendar-range"></i>
+                                    </div>
+                                    <h3 class="card-title mb-3">Administrative Assistant</h3>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, vel?
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card bg-dark text-light">
+                                <div class="card-body text-center">
+                                    <div class="h1 mb-3">
+                                        <i class="bi bi-calendar-range"></i>
+                                    </div>
+                                    <h3 class="card-title mb-3">Freelance</h3>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, vel?
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Read More</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card bg-secondary text-light">
-                        <div class="card-body text-center">
-                            <div class="h1 mb-3">
-                                <i class="bi bi-calendar-range"></i>
+            </section>
+        </div>
+    </div>
+    <!-- my projects -->
+    <div class="vw-100 vh-100 border border-2 border-dark bg-dark">
+        <section class="p-5 pb-0 bg-dark m-1 mb-0" id="my projects">
+            <section class="bg-dark text-light p-3 text-center text-sm-start">
+                <h1 class=" mt-5 text-center">My <span class="text-warning">Projects</span></h1>
+            </section>
+        </section>
+        <section class="p-5 m-sm-0">
+            <div class="container">
+                <div class="row text-center g-3">
+                    <div class="col-md-4">
+                        <div class="card bg-light text-dark">
+                            <div class="card-body text-center">
+                                <div class="h1 mb-3">
+                                    <i class="bi bi-bootstrap"></i>
+                                </div>
+                                <h3 class="card-title mb-3">Project 1</h3>
+                                <p class="card-text">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, quibusdam?
+                                    Tenetur, a. Debitis eos commodi quis rerum obcaecati placeat culpa cum eum unde.
+                                    Dolorem porro soluta velit, consequuntur nam mollitia! ipsum dolor sit amet,
+                                    consectetur adipisicing elit. Sint, vel?
+                                </p>
+                                <a href="#" class="btn btn-primary">Read More</a>
                             </div>
-                            <h3 class="card-title mb-3">Administrative Assistant</h3>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, vel?
-                            </p>
-                            <a href="#" class="btn btn-primary">Read More</a>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card bg-dark text-light">
-                        <div class="card-body text-center">
-                            <div class="h1 mb-3">
-                                <i class="bi bi-calendar-range"></i>
+                    <div class="col-md-4">
+                        <div class="card bg-secondary text-light">
+                            <div class="card-body text-center">
+                                <div class="h1 mb-3">
+                                    <i class="bi bi-bootstrap"></i>
+                                </div>
+                                <h3 class="card-title mb-3">Project 2</h3>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat itaque quidem
+                                    temporibus. Exercitationem, reiciendis nam accusantium nostrum quod iusto voluptas
+                                    consequatur obcaecati ipsum ut nobis quae sint. Quo, facere totam? ipsum dolor sit
+                                    amet, consectetur adipisicing elit. Sint, vel?
+                                </p>
+                                <a href="#" class="btn btn-primary">Read More</a>
                             </div>
-                            <h3 class="card-title mb-3">Freelance</h3>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, vel?
-                            </p>
-                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-light text-dark">
+                            <div class="card-body text-center">
+                                <div class="h1 mb-3">
+                                    <i class="bi bi-bootstrap"></i>
+                                </div>
+                                <h3 class="card-title mb-3">Project 3</h3>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus qui, nulla
+                                    explicabo dolorum nesciunt fuga tempora. Accusantium, vero distinctio. Quidem eius
+                                    modi quos libero fugit voluptatibus voluptate fuga natus quae? ipsum dolor sit amet,
+                                    consectetur adipisicing elit. Sint, vel?
+                                </p>
+                                <a href="#" class="btn btn-primary">Read More</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-</div>
-</div>
-    <!-- my projects -->
-    <div class="vw-100 vh-100 border border-2 border-dark bg-dark">
-    <section class="p-5 pb-0 bg-dark m-1 mb-0">
-        <section class="bg-dark text-light p-3 text-center text-sm-start">
-            <h1 class=" mt-5 text-center">My <span class="text-warning">Projects</span></h1>
         </section>
-    </section>
-
-    <!-- carousel -->
-    <section class="p-5 pt-0 bg-dark">
+        <!-- carousel -->
+        <!-- <section class="p-5 pt-0 bg-dark">
         <section class="bg-dark text-light p-3 justify-content-center text-sm-center">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -153,28 +212,61 @@
             </div>
         </section>
     </section>
-</div>
-<!-- Contact -->
-<div class="vw-100 vh-100 container border border-2 border-dark m-0">
-    <h1 class=" mt-5 text-center">Let's <span class="text-warning">Connect</span></h1>
-    <section class="p-0">
-        <div class="container">
-            <div class="row text-center">
-                
-            </div>
-        </div>
-    </section>
-</div>
+</div> -->
+        <!-- Contact -->
+        <div class="container vh-100 vw-100 bg-primary" id="let's connect">
+            <h1 class="mt-5 text-center">Let's <span class="text-warning">Connect</span></h1>
+            <section class="p-2">
+                <!-- <div class="container"> -->
+                <!-- <div class="row text-center"> -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
-        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
-        crossorigin="anonymous"></script>
+
+                <!-- <div class="py-4 align-items-center justify-content-center"> -->
+
+                <!-- Bootstrap 5 starter form -->
+                <form id="contactForm">
+
+                    <!-- Name input -->
+                    <div class="mb-3">
+                        <label class="form-label" for="name">Name</label>
+                        <input class="form-control" id="name" type="text" placeholder="Name" />
+                    </div>
+
+                    <!-- Email address input -->
+                    <div class="mb-3">
+                        <label class="form-label" for="emailAddress">Email Address</label>
+                        <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" />
+                    </div>
+
+                    <!-- Message input -->
+                    <div class="mb-3">
+                        <label class="form-label" for="message">Message</label>
+                        <textarea class="form-control" id="message" type="text" placeholder="Message"
+                            style="height: 10rem;"></textarea>
+                    </div>
+
+                    <!-- Form submit button -->
+                    <div class="d-grid">
+                        <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+                    </div>
+
+                </form>
+
+                <!-- </div> -->
+                <!-- </div> -->
+                <!-- </div> -->
+            </section>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+            integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>

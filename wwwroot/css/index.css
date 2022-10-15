@@ -1,3 +1,15 @@
+/* body::before {
+    display: block;
+    content: "";
+    height: 70px;
+} */
+
+.container::before {
+    display: block;
+    content: "";
+    height: 50px;
+}
+
 .customDiv{
     margin-bottom:3px;
     min-height:300px;
@@ -23,3 +35,11 @@
     left: 0;
     right: 0;
 } */
+
+
+@media screen and (min-width: 400px) {
+    .me {
+    
+      font-size: medium;
+      
+    }
